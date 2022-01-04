@@ -10,4 +10,6 @@ for i in range(len(numbers)-1):
             min_idx = j
             
     numbers[i], numbers[min_idx] = numbers[min_idx], numbers[i]
+    
+    
 

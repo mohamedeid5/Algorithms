@@ -21,7 +21,7 @@ def find_number(arr, low, high, num):
         return -1
 
 
-result = find_number(arr, 0, len(arr)-1, 20)
+result = find_number(arr, 0, len(arr)-1, 8)
 
 if result != -1:
     print('element is present at index', str(result))

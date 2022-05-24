@@ -10,3 +10,5 @@ for i in range(1, len(arr)):
         j -= 1
         
     arr[j+1] = key
+
+print(arr)
